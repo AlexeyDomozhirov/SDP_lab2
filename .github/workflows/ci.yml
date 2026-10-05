@@ -25,4 +25,4 @@ jobs:
         run: uv sync
 
       - name: Run Python script
-        run: uv run main.py
+        run: uv run src/sdp_lab2/main.py
