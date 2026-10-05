@@ -1,0 +1,20 @@
+[project]
+name = "sdp-lab2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Alexei", email = "alexei-2006@bk.ru" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "scipy>=1.18.1",
+    "sympy>=1.14.0",
+]
+
+[project.scripts]
+sdp-lab2 = "sdp_lab2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
